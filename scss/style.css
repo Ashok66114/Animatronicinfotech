@@ -1,0 +1,476 @@
+.needed_space {
+  height: 100px;
+}
+
+.body {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+p {
+  font-size: 18px;
+}
+
+.navbar {
+  background: transparent;
+  padding-top: 2rem;
+  -webkit-box-shadow: 3px 3px 5px #4b4b4b;
+          box-shadow: 3px 3px 5px #4b4b4b;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 15px 0;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: white;
+}
+
+.navbar .nav-item {
+  padding: 0 0 0 15px;
+}
+
+.navbar .nav-item .nav-link {
+  color: white;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: orange;
+}
+
+.navbar .navbar-logo {
+  height: 70px;
+  width: 70px;
+}
+
+/*introduction section*/
+.introduction {
+  color: white;
+}
+
+.introduction .overlay {
+  height: 800px;
+  background: rgba(22, 22, 22, 0.8);
+  z-index: 1;
+}
+
+.introduction .overlay .intro .welcome {
+  padding-top: 13rem;
+}
+
+.introduction .overlay .intro p {
+  font-size: 18px;
+  padding: 1rem 0;
+}
+
+.introduction .overlay .intro button {
+  border-radius: 25px;
+  padding: 5px 30px;
+  background-color: #4385f4;
+  border-color: #4385f4;
+}
+
+.introduction .overlay .intro button:hover {
+  background-color: #346bca;
+  border-color: #346bca;
+}
+
+.business_half {
+  padding: 2rem;
+  margin-top: 3rem;
+  color: #333;
+}
+
+.business_half a {
+  text-decoration: none;
+}
+
+.business_half button {
+  display: block;
+  background-color: #3b83ff;
+  border-color: #3b83ff;
+}
+
+.business_half button:hover {
+  background-color: #346bca;
+  border-color: #4385f4;
+}
+
+/*overview*/
+.overview {
+  background-color: #555db4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#555db4), color-stop(74%, #5452df));
+  background-image: linear-gradient(#555db4 0%, #5452df 74%);
+  color: white;
+}
+
+/*our clients*/
+.client_section {
+  background-color: #f4f4f4;
+}
+
+.client_section .our_clients {
+  max-height: 100px;
+  max-width: auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.client_section .our_clients:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.technologies_used img {
+  max-height: 100px;
+  max-width: auto;
+}
+
+.more_services a {
+  text-decoration: none;
+}
+
+.team_image img {
+  height: 600px;
+  width: 100%;
+}
+
+.team_index img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.team_index p {
+  font-size: 1.2rem;
+}
+
+/*testimonial*/
+.testimonials_section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d1d3f6), to(#d1d3f6));
+  background: linear-gradient(#d1d3f6 0%, #d1d3f6 100%);
+}
+
+.testimonials_section .quote_section {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonials_section .quote_section p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.testimonials_section .quote_section p::before {
+  content: open-quote;
+}
+
+.testimonials_section .quote_section p::after {
+  content: close-quote;
+}
+
+footer {
+  background-color: #181717;
+  color: white;
+  padding-top: 3rem;
+}
+
+footer i {
+  margin-right: 15px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer .foot_title h3 {
+  color: #d1d1d1;
+}
+
+footer .foot_title li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-bottom {
+  padding: 10px 0;
+  background-color: black;
+}
+
+footer .footer-bottom h6 {
+  margin: 0;
+}
+
+/*About us page*/
+.about .about_image img {
+  width: 100%;
+}
+
+.about .mission_info {
+  background-color: #555db4;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+
+.team_bg {
+  background-color: #f4f4f4;
+}
+
+.team img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.team p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.team .image_box {
+  background-color: #ffff;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.team .image_box i {
+  color: #636368;
+}
+
+.team .image_box:hover {
+  background-color: #636368;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.team .image_box:hover i {
+  color: white;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+}
+
+/*our process*/
+.process i {
+  display: inline-block;
+  width: auto;
+  height: 70px;
+  width: 70px;
+  -webkit-box-shadow: 5px 5px 5px 2px grey;
+          box-shadow: 5px 5px 5px 2px grey;
+  text-align: center;
+  border-radius: 25%;
+  padding-top: 15px;
+}
+
+.process .reqanalysis:hover i {
+  background-color: #555db4;
+  border: 1px solid #555db4;
+  color: white;
+}
+
+/*Wanna work section*/
+.wanna_work {
+  background-color: #555db4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#555db4), color-stop(74%, #5452df));
+  background-image: linear-gradient(#555db4 0%, #5452df 74%);
+  color: white;
+}
+
+.wanna_work a {
+  text-decoration: none;
+  color: white;
+}
+
+.wanna_work a:hover {
+  color: goldenrod;
+}
+
+/*Service Page*/
+.service {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.service .service_image img {
+  height: 200px;
+  width: 200px;
+}
+
+.website {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6ddf4), to(#e6ddf4));
+  background: linear-gradient(#e6ddf4 0%, #e6ddf4 100%);
+}
+
+.mobile {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d1d3f6), to(#d1d3f6));
+  background: linear-gradient(#d1d3f6 0%, #d1d3f6 100%);
+}
+
+.software {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ebcad9), to(#ebcad9));
+  background: linear-gradient(#ebcad9 0%, #ebcad9 100%);
+}
+
+.graphics {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e6ddf4), to(#e6ddf4));
+  background: linear-gradient(#e6ddf4 0%, #e6ddf4 100%);
+}
+
+.desktop {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c9e8db), to(#c9e8db));
+  background: linear-gradient(#c9e8db 0%, #c9e8db 100%);
+}
+
+.seo {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d1d3f6), to(#d1d3f6));
+  background: linear-gradient(#d1d3f6 0%, #d1d3f6 100%);
+}
+
+/*Contact page*/
+.media {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.media .item_icon {
+  text-align: center;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+
+.media .item_icon i {
+  font-size: 24px;
+  color: #444444;
+  font-weight: 700;
+}
+
+.media .media-body {
+  margin-left: 3rem;
+}
+
+.media .media-body ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group .form-control,
+.form-group select {
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #646464;
+  padding: 20px;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group .btn_form {
+  background-color: #3b83ff;
+  color: white;
+}
+
+.form-group .btn_form:hover {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: white;
+}
+
+.our_product {
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+
+.card_section a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card:hover {
+  border: 1px solid #555db4;
+  -webkit-transform: translateZ(10%);
+          transform: translateZ(10%);
+}
+
+.card .card-header {
+  background: none;
+}
+
+.card .card-body {
+  background-color: #555db4;
+  color: white;
+}
+
+.card .card-footer {
+  background-color: #555db4;
+  color: white;
+}
+
+.card .card-footer .view {
+  background-color: #555db4;
+  color: black;
+  padding: 3px 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.card .card-footer .view:hover {
+  color: white;
+  background-color: #5452df;
+}
+
+.page-scroll-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  justify-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.page-scroll-up i {
+  position: absolute;
+  top: 15%;
+  left: 37%;
+  color: #555db4;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,426 @@
+$aboutcolor: #555db4;
+.needed_space {
+  height: 100px;
+}
+.body {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+}
+p {
+  font-size: 18px;
+}
+.navbar {
+  background: transparent;
+  padding-top: 2rem;
+  box-shadow: 3px 3px 5px rgb(75, 75, 75);
+  backdrop-filter: blur(10px);
+  padding: 15px 0;
+
+  .navbar-collapse {
+    flex-direction: row-reverse;
+    color: white;
+  }
+  .nav-item {
+    padding: 0 0 0 15px;
+    .nav-link {
+      color: white;
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+  .navbar-logo {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+/*introduction section*/
+.introduction {
+  color: white;
+  .overlay {
+    height: 800px;
+    background: rgba(22, 22, 22, 0.8);
+    z-index: 1;
+    .intro {
+      .welcome {
+        padding-top: 13rem;
+      }
+      p {
+        font-size: 18px;
+        padding: 1rem 0;
+      }
+      button {
+        border-radius: 25px;
+        padding: 5px 30px;
+        background-color: #4385f4;
+        border-color: #4385f4;
+        &:hover {
+          background-color: #346bca;
+          border-color: #346bca;
+        }
+      }
+    }
+  }
+}
+
+.business_half {
+  padding: 2rem;
+  margin-top: 3rem;
+  color: #333;
+  a {
+    text-decoration: none;
+  }
+  button {
+    display: block;
+    background-color: #3b83ff;
+    border-color: #3b83ff;
+    &:hover {
+      background-color: #346bca;
+      border-color: #4385f4;
+    }
+  }
+}
+
+/*overview*/
+.overview {
+  background-color: $aboutcolor;
+  background-image: linear-gradient($aboutcolor 0%, #5452df 74%);
+  color: white;
+}
+
+/*our clients*/
+.client_section {
+  background-color: #f4f4f4;
+  .our_clients {
+    max-height: 100px;
+    max-width: auto;
+    filter: grayscale(100%);
+    transition-duration: 0.3s;
+    &:hover {
+      filter: none;
+    }
+  }
+}
+.technologies_used {
+  img {
+    max-height: 100px;
+    max-width: auto;
+  }
+}
+.more_services {
+  a {
+    text-decoration: none;
+  }
+}
+
+.team_image {
+  img {
+    height: 600px;
+    width: 100%;
+  }
+}
+.team_index {
+  img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/*testimonial*/
+.testimonials_section {
+  background: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
+
+  .quote_section {
+    text-align: center;
+    justify-content: center;
+    p {
+      font-style: italic;
+      font-size: 1.2rem;
+      &::before {
+        content: open-quote;
+      }
+      &::after {
+        content: close-quote;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: rgb(24, 23, 23);
+  color: white;
+  padding-top: 3rem;
+
+  i {
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  .foot_title {
+    h3 {
+      color: rgb(209, 209, 209);
+    }
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+  .footer-bottom {
+    padding: 10px 0;
+    background-color: black;
+    h6 {
+      margin: 0;
+    }
+  }
+}
+
+/*About us page*/
+.about {
+  .about_image {
+    img {
+      width: 100%;
+    }
+  }
+  .mission_info {
+    background-color: $aboutcolor;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+  }
+}
+.team_bg {
+  background-color: #f4f4f4;
+}
+
+.team {
+  img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+
+  .image_box {
+    background-color: #ffff;
+    padding: 40px;
+    border-radius: 8px;
+    i {
+      color: #636368;
+    }
+    &:hover {
+      background-color: #636368;
+      color: white;
+      transition: all 0.5s ease;
+    }
+    &:hover {
+      i {
+        color: white;
+        transition: all 0.5 ease;
+      }
+    }
+  }
+}
+
+/*our process*/
+.process {
+  i {
+    display: inline-block;
+    width: auto;
+    height: 70px;
+    width: 70px;
+    box-shadow: 5px 5px 5px 2px grey;
+    text-align: center;
+    border-radius: 25%;
+    padding-top: 15px;
+  }
+  .reqanalysis {
+    &:hover {
+      i {
+        background-color: $aboutcolor;
+        border: 1px solid $aboutcolor;
+        color: white;
+      }
+    }
+  }
+}
+
+/*Wanna work section*/
+.wanna_work {
+  background-color: $aboutcolor;
+  background-image: linear-gradient($aboutcolor 0%, #5452df 74%);
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: goldenrod;
+    }
+  }
+}
+
+/*Service Page*/
+.service {
+  padding: 15px;
+  border-radius: 15px;
+  .service_image {
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
+.website {
+  background: linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%);
+}
+.mobile {
+  background: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
+}
+.software {
+  background: linear-gradient(rgb(235, 202, 217) 0%, rgb(235, 202, 217) 100%);
+}
+.graphics {
+  background: linear-gradient(rgb(230, 221, 244) 0%, rgb(230, 221, 244) 100%);
+}
+.desktop {
+  background: linear-gradient(rgb(201, 232, 219) 0%, rgb(201, 232, 219) 100%);
+}
+.seo {
+  background: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
+}
+
+/*Contact page*/
+.media {
+  align-items: center;
+  margin-bottom: 35px;
+  display: flex;
+
+  .item_icon {
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    i {
+      font-size: 24px;
+      color: #444444;
+      font-weight: 700;
+    }
+  }
+  .media-body {
+    margin-left: 3rem;
+    ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.form-group {
+  margin-bottom: 16px;
+
+  .form-control,
+  select {
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #646464;
+    padding: 20px;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  .btn_form {
+    background-color: #3b83ff;
+    color: white;
+    &:hover {
+      background-color: #3b5998;
+      border-color: #3b5998;
+      color: white;
+    }
+  }
+}
+
+.our_product {
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+.card_section {
+  a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+.card {
+  &:hover {
+    border: 1px solid $aboutcolor;
+    transform: translateZ(10%);
+  }
+  .card-header {
+    background: none;
+  }
+  .card-body {
+    background-color: $aboutcolor;
+    color: white;
+  }
+
+  .card-footer {
+    background-color: $aboutcolor;
+    color: white;
+    .view {
+      background-color: $aboutcolor;
+      color: black;
+      padding: 3px 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+      &:hover {
+        color: white;
+        background-color: #5452df;
+      }
+    }
+  }
+}
+
+.page-scroll-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  justify-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  i {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    color: $aboutcolor;
+  }
+}
