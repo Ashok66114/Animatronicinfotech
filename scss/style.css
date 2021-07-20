@@ -101,11 +101,9 @@ p {
 }
 
 /*overview*/
-.overview {
-  background-color: #555db4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#555db4), color-stop(74%, #5452df));
-  background-image: linear-gradient(#555db4 0%, #5452df 74%);
-  color: white;
+.overview_section img {
+  height: 400px;
+  width: 400px;
 }
 
 /*our clients*/
@@ -141,16 +139,6 @@ p {
   width: 100%;
 }
 
-.team_index img {
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
-}
-
-.team_index p {
-  font-size: 1.2rem;
-}
-
 /*testimonial*/
 .testimonials_section {
   background: -webkit-gradient(linear, left top, left bottom, from(#d1d3f6), to(#d1d3f6));
@@ -162,6 +150,16 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 0 65px;
+  background-color: white;
+  padding: 40px 30px;
+}
+
+.testimonials_section .quote_section .test_image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
 }
 
 .testimonials_section .quote_section p {
@@ -175,6 +173,55 @@ p {
 
 .testimonials_section .quote_section p::after {
   content: close-quote;
+}
+
+.subscribe_section {
+  position: relative;
+  width: 100%;
+}
+
+.subscribe_section .subscription {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  position: absolute;
+  top: -20px;
+  -webkit-box-shadow: 3px 3px 5px #a23bf6;
+          box-shadow: 3px 3px 5px #a23bf6;
+}
+
+.subscribe_section .subscription .form-control {
+  position: relative;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-right: 100px;
+}
+
+.subscribe_section .subscription .form-control::-webkit-input-placeholder {
+  position: absolute;
+  bottom: 15px;
+}
+
+.subscribe_section .subscription .form-control:-ms-input-placeholder {
+  position: absolute;
+  bottom: 15px;
+}
+
+.subscribe_section .subscription .form-control::-ms-input-placeholder {
+  position: absolute;
+  bottom: 15px;
+}
+
+.subscribe_section .subscription .form-control::placeholder {
+  position: absolute;
+  bottom: 15px;
+}
+
+.subscribe_section .subscription .button {
+  position: absolute;
+  right: 4px;
+  width: 30%;
+  background-color: #5f97ff;
+  border-radius: 15px;
 }
 
 footer {
@@ -470,14 +517,10 @@ footer .footer-bottom h6 {
 
 .page-scroll-up {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #fff;
-  height: 50px;
-  width: 50px;
+  bottom: 70px;
+  right: 70px;
   text-align: center;
   justify-items: center;
-  border-radius: 50%;
   cursor: pointer;
 }
 

@@ -84,10 +84,11 @@ p {
 }
 
 /*overview*/
-.overview {
-  background-color: $aboutcolor;
-  background-image: linear-gradient($aboutcolor 0%, #5452df 74%);
-  color: white;
+.overview_section {
+  img {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 /*our clients*/
@@ -121,24 +122,24 @@ p {
     width: 100%;
   }
 }
-.team_index {
-  img {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-  }
-  p {
-    font-size: 1.2rem;
-  }
-}
 
 /*testimonial*/
 .testimonials_section {
   background: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
-
   .quote_section {
     text-align: center;
     justify-content: center;
+    border-radius: 0 65px;
+    background-color: white;
+    padding: 40px 30px;
+    .test_image {
+      img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        text-align: center;
+      }
+    }
     p {
       font-style: italic;
       font-size: 1.2rem;
@@ -151,6 +152,35 @@ p {
     }
   }
 }
+
+.subscribe_section {
+  position: relative;
+  width: 100%;
+  .subscription {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    position: absolute;
+    top: -20px;
+    box-shadow: 3px 3px 5px rgb(162, 59, 246);
+      .form-control{
+        position: relative;
+        border-radius: 15px;
+        padding-top: 15px;
+        padding-right:  100px;
+        &::placeholder{
+          position: absolute;
+          bottom: 15px;
+        }
+      }
+    .button{
+      position: absolute;
+      right: 4px;
+      width: 30%;
+      background-color: rgb(95, 151, 255);
+      border-radius: 15px;
+    }  
+    }
+  }
 
 footer {
   background-color: rgb(24, 23, 23);
@@ -308,14 +338,14 @@ footer {
 .seo {
   background: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
 }
-.hosting{
+.hosting {
   background: linear-gradient(rgb(195, 216, 246) 0%, rgb(195, 216, 246) 100%);
 }
-.ecom{
- background:  linear-gradient(rgb(246, 242, 195) 0%, rgb(246, 244, 195) 100%);
+.ecom {
+  background: linear-gradient(rgb(246, 242, 195) 0%, rgb(246, 244, 195) 100%);
 }
-.wordpress{
-  background: linear-gradient(315deg, #c1b6c8 0%, #c1b6c8 100%);;
+.wordpress {
+  background: linear-gradient(315deg, #c1b6c8 0%, #c1b6c8 100%);
 }
 
 /*Contact page*/
@@ -417,14 +447,10 @@ footer {
 
 .page-scroll-up {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #fff;
-  height: 50px;
-  width: 50px;
+  bottom: 70px;
+  right: 70px;
   text-align: center;
   justify-items: center;
-  border-radius: 50%;
   cursor: pointer;
   i {
     position: absolute;
