@@ -161,7 +161,11 @@ p {
     border-radius: 15px;
     position: absolute;
     top: -20px;
+    width: 35%;
     box-shadow: 3px 3px 5px rgb(162, 59, 246);
+    &:hover{
+      border:2px solid $aboutcolor;
+    }
       .form-control{
         position: relative;
         border-radius: 15px;
@@ -170,6 +174,7 @@ p {
         &::placeholder{
           position: absolute;
           bottom: 15px;
+          left: 30px;
         }
       }
     .button{
@@ -177,7 +182,12 @@ p {
       right: 4px;
       width: 30%;
       background-color: rgb(95, 151, 255);
+      color: white;
       border-radius: 15px;
+      &:hover{
+        color: white;
+        background-color: $aboutcolor;
+      }
     }  
     }
   }

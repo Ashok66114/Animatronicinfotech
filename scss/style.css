@@ -185,8 +185,13 @@ p {
   border-radius: 15px;
   position: absolute;
   top: -20px;
+  width: 35%;
   -webkit-box-shadow: 3px 3px 5px #a23bf6;
           box-shadow: 3px 3px 5px #a23bf6;
+}
+
+.subscribe_section .subscription:hover {
+  border: 2px solid #555db4;
 }
 
 .subscribe_section .subscription .form-control {
@@ -199,21 +204,25 @@ p {
 .subscribe_section .subscription .form-control::-webkit-input-placeholder {
   position: absolute;
   bottom: 15px;
+  left: 30px;
 }
 
 .subscribe_section .subscription .form-control:-ms-input-placeholder {
   position: absolute;
   bottom: 15px;
+  left: 30px;
 }
 
 .subscribe_section .subscription .form-control::-ms-input-placeholder {
   position: absolute;
   bottom: 15px;
+  left: 30px;
 }
 
 .subscribe_section .subscription .form-control::placeholder {
   position: absolute;
   bottom: 15px;
+  left: 30px;
 }
 
 .subscribe_section .subscription .button {
@@ -221,7 +230,13 @@ p {
   right: 4px;
   width: 30%;
   background-color: #5f97ff;
+  color: white;
   border-radius: 15px;
+}
+
+.subscribe_section .subscription .button:hover {
+  color: white;
+  background-color: #555db4;
 }
 
 footer {
