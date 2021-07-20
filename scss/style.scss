@@ -105,9 +105,16 @@ p {
   }
 }
 .technologies_used {
+  background: linear-gradient(rgb(226, 227, 245) 0%, rgb(209, 211, 246) 100%);
   img {
     max-height: 100px;
     max-width: auto;
+  }
+  .nav-pills {
+    button {
+      color: black;
+      border-radius: 15px;
+    }
   }
 }
 .more_services {
@@ -125,13 +132,14 @@ p {
 
 /*testimonial*/
 .testimonials_section {
-  background: linear-gradient(rgb(209, 211, 246) 0%, rgb(209, 211, 246) 100%);
   .quote_section {
     text-align: center;
     justify-content: center;
     border-radius: 0 65px;
-    background-color: white;
+    background: linear-gradient(rgb(238, 235, 245) 0%, rgb(230, 221, 244) 100%);
     padding: 40px 30px;
+    border: 3px solid rgb(192, 190, 190);
+    box-shadow: 3px 3px 4px rgb(192, 190, 190);
     .test_image {
       img {
         height: 100px;
@@ -163,34 +171,34 @@ p {
     top: -20px;
     width: 35%;
     box-shadow: 3px 3px 5px rgb(162, 59, 246);
-    &:hover{
-      border:2px solid $aboutcolor;
+    &:hover {
+      border: 2px solid $aboutcolor;
     }
-      .form-control{
-        position: relative;
-        border-radius: 15px;
-        padding-top: 15px;
-        padding-right:  100px;
-        &::placeholder{
-          position: absolute;
-          bottom: 15px;
-          left: 30px;
-        }
+    .form-control {
+      position: relative;
+      border-radius: 15px;
+      padding-top: 15px;
+      padding-right: 100px;
+      &::placeholder {
+        position: absolute;
+        bottom: 15px;
+        left: 30px;
       }
-    .button{
+    }
+    .button {
       position: absolute;
       right: 4px;
       width: 30%;
       background-color: rgb(95, 151, 255);
       color: white;
       border-radius: 15px;
-      &:hover{
+      &:hover {
         color: white;
         background-color: $aboutcolor;
       }
-    }  
     }
   }
+}
 
 footer {
   background-color: rgb(24, 23, 23);
