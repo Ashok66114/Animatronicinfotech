@@ -147,7 +147,7 @@ p {
     border-radius: 0 65px;
     background: linear-gradient(rgb(238, 235, 245) 0%, rgb(230, 221, 244) 100%);
     padding: 40px 30px;
-    border: 3px solid rgb(192, 190, 190);
+    border: 5px solid rgb(192, 190, 190);
     box-shadow: 3px 3px 4px rgb(192, 190, 190);
     .test_image {
       img {
@@ -175,9 +175,9 @@ p {
   width: 100%;
   .subscription {
     background-color: #f2f2f2;
-    border-radius: 15px;
+    border-radius: 25px;
     position: absolute;
-    top: -20px;
+    top: -28px;
     width: 35%;
     box-shadow: 3px 3px 5px rgb(162, 59, 246);
     &:hover {
@@ -185,8 +185,8 @@ p {
     }
     .form-control {
       position: relative;
-      border-radius: 15px;
-      padding-top: 15px;
+      border-radius: 25px;
+      padding-top: 25px;
       padding-right: 100px;
       &::placeholder {
         position: absolute;
@@ -200,7 +200,7 @@ p {
       width: 30%;
       background-color: rgb(95, 151, 255);
       color: white;
-      border-radius: 15px;
+      border-radius: 25px;
       &:hover {
         color: white;
         background-color: $aboutcolor;
