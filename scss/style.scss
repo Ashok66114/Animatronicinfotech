@@ -16,7 +16,16 @@ p {
   box-shadow: 3px 3px 5px rgb(75, 75, 75);
   backdrop-filter: blur(10px);
   padding: 15px 0;
-
+  .navbar-toggler {
+      background-color: white;
+      z-index: 99;
+     span{ 
+       .navbar-toggler-icon{
+      color: $aboutcolor;
+      z-index: 99;
+    }
+  }
+}
   .navbar-collapse {
     flex-direction: row-reverse;
     color: white;
@@ -228,6 +237,10 @@ footer {
         color: white;
       }
     }
+  }
+  @media screen  and (max-width:950px){
+    text-align: center;
+    
   }
   .footer-bottom {
     padding: 10px 0;
