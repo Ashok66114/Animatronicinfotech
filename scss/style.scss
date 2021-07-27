@@ -180,10 +180,8 @@ p {
     position: absolute;
     top: -28px;
     width: 35%;
-    box-shadow: 3px 3px 5px rgb(162, 59, 246);
-    &:hover {
-      border: 2px solid $aboutcolor;
-    }
+    box-shadow: 0 4px 20px rgb(112, 111, 112);
+    
     .form-control {
       position: relative;
       border-radius: 25px;
@@ -199,12 +197,13 @@ p {
       position: absolute;
       right: 4px;
       width: 30%;
-      background-color: rgb(95, 151, 255);
+      background-color: #5452df;
       color: white;
       border-radius: 25px;
       &:hover {
-        color: white;
-        background-color: $aboutcolor;
+        color: #5452df;
+        background-color: transparent;
+        border: 2px solid #5452df;
       }
     }
   }

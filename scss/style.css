@@ -208,12 +208,8 @@ p {
   position: absolute;
   top: -28px;
   width: 35%;
-  -webkit-box-shadow: 3px 3px 5px #a23bf6;
-          box-shadow: 3px 3px 5px #a23bf6;
-}
-
-.subscribe_section .subscription:hover {
-  border: 2px solid #555db4;
+  -webkit-box-shadow: 0 4px 20px #706f70;
+          box-shadow: 0 4px 20px #706f70;
 }
 
 .subscribe_section .subscription .form-control {
@@ -251,14 +247,15 @@ p {
   position: absolute;
   right: 4px;
   width: 30%;
-  background-color: #5f97ff;
+  background-color: #5452df;
   color: white;
   border-radius: 25px;
 }
 
 .subscribe_section .subscription .button:hover {
-  color: white;
-  background-color: #555db4;
+  color: #5452df;
+  background-color: transparent;
+  border: 2px solid #5452df;
 }
 
 footer {
