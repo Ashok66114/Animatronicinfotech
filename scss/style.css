@@ -160,14 +160,17 @@ p {
 }
 
 /*testimonial*/
+.testimonials_section {
+  background-color: #f4f4f4;
+}
+
 .testimonials_section .quote_section {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 0 65px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#eeebf5), to(#e6ddf4));
-  background: linear-gradient(#eeebf5 0%, #e6ddf4 100%);
+  background-color: white;
   padding: 40px 30px;
   border: 5px solid #c0bebe;
   -webkit-box-shadow: 3px 3px 4px #c0bebe;
