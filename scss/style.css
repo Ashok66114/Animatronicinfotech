@@ -160,10 +160,6 @@ p {
 }
 
 /*testimonial*/
-.testimonials_section {
-  background-color: #f4f4f4;
-}
-
 .testimonials_section .quote_section {
   text-align: center;
   -webkit-box-pack: center;
@@ -172,9 +168,8 @@ p {
   border-radius: 0 65px;
   background-color: white;
   padding: 40px 30px;
-  border: 5px solid #c0bebe;
-  -webkit-box-shadow: 3px 3px 4px #c0bebe;
-          box-shadow: 3px 3px 4px #c0bebe;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+          box-shadow: inset 0 0 10px #000000;
 }
 
 .testimonials_section .quote_section .test_image img {
